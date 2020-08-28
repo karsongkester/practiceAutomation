@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="empMan2"
+    errors="1" failures="0" hostname="" id="" package="empMan2" skipped="0"
+    tests="1" time="2.248" timestamp="">
+  
+    <testcase name="name" classname="empMan2" time="2.248" assertions="0">
+    <error message="Cannot read property &#39;nombre1&#39; of undefined" type="error"><![CDATA[
+    TypeError: Cannot read property &#39;nombre1&#39; of undefined
+    at Page.file1 (C:\Users\Karso\DevMountain\practiceAutomation\pageObjects\managerV2Objects.js:8:39)
+    at Object.name (C:\Users\Karso\DevMountain\practiceAutomation\tests\empMan2.js:14:6)
+    at Context.call (C:\Users\Karso\AppData\Roaming\npm\node_modules\nightwatch\lib\testsuite\context.js:379:35)
+    at TestCase.run (C:\Users\Karso\AppData\Roaming\npm\node_modules\nightwatch\lib\testsuite\testcase.js:49:31)
+    at Runnable.__runFn (C:\Users\Karso\AppData\Roaming\npm\node_modules\nightwatch\lib\testsuite\index.js:376:80)
+    at Runnable.run (C:\Users\Karso\AppData\Roaming\npm\node_modules\nightwatch\lib\testsuite\runnable.js:123:21)
+    at TestSuite.createRunnable (C:\Users\Karso\AppData\Roaming\npm\node_modules\nightwatch\lib\testsuite\index.js:443:33)
+    at TestSuite.handleRunnable (C:\Users\Karso\AppData\Roaming\npm\node_modules\nightwatch\lib\testsuite\index.js:448:18)
+    at C:\Users\Karso\AppData\Roaming\npm\node_modules\nightwatch\lib\testsuite\index.js:376:21
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+        TypeError: Cannot read property &#39;nombre1&#39; of undefined
+       at Page.file1 (C:\Users\Karso\DevMountain\practiceAutomation\pageObjects\managerV2Objects.js:8:39)
+       at Object.name (C:\Users\Karso\DevMountain\practiceAutomation\tests\empMan2.js:14:6)
+       at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

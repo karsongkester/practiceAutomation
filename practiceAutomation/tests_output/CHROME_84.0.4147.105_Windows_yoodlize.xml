@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="2"
+            failures="0"
+            tests="1">
+
+  <testsuite name="yoodlize"
+    errors="2" failures="0" hostname="" id="" package="yoodlize" skipped="14"
+    tests="1" time="0.003000" timestamp="">
+  
+    <testcase name="Rec Vehicles" classname="yoodlize" time="0.003000" assertions="0">
+    <error message="No selector property for element &#34;See1&#34;. Instead found properties: See1, locateStrategy" type="error"><![CDATA[
+    TypeError: yoodlize.end is not a function
+    at Object.after (C:\Users\Karso\DevMountain\practiceAutomation\tests\yoodlize.js:10:14)
+    at Context.callAsync (C:\Users\Karso\AppData\Roaming\npm\node_modules\nightwatch\lib\testsuite\context.js:395:20)
+    at Context.invokeMethod (C:\Users\Karso\AppData\Roaming\npm\node_modules\nightwatch\lib\testsuite\context.js:346:21)
+    at C:\Users\Karso\AppData\Roaming\npm\node_modules\nightwatch\lib\testsuite\hooks\_basehook.js:75:24
+    at new Promise (&lt;anonymous&gt;)
+    at AfterAll.run (C:\Users\Karso\AppData\Roaming\npm\node_modules\nightwatch\lib\testsuite\hooks\_basehook.js:50:14)
+    at Runnable.__runFn (C:\Users\Karso\AppData\Roaming\npm\node_modules\nightwatch\lib\testsuite\index.js:186:35)
+    at Runnable.run (C:\Users\Karso\AppData\Roaming\npm\node_modules\nightwatch\lib\testsuite\runnable.js:123:21)
+    at TestSuite.createRunnable (C:\Users\Karso\AppData\Roaming\npm\node_modules\nightwatch\lib\testsuite\index.js:443:33)
+    at TestSuite.handleRunnable (C:\Users\Karso\AppData\Roaming\npm\node_modules\nightwatch\lib\testsuite\index.js:448:18)
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+        Error: No selector property for element &#34;See1&#34;. Instead found properties: See1, locateStrategy
+       at Array.forEach (&lt;anonymous&gt;)
+       at Array.forEach (&lt;anonymous&gt;)
+       at Object.beforeEach (C:\Users\Karso\DevMountain\practiceAutomation\tests\yoodlize.js:4:33)
+  TypeError: yoodlize.end is not a function
+   - writing an ES6 async test case? - keep in mind that commands return a Promise; 
+   - writing unit tests? - make sure to specify &#34;unit_tests_mode=true&#34; in your config.
+       at Object.after (C:\Users\Karso\DevMountain\practiceAutomation\tests\yoodlize.js:10:14)
+       at new Promise (&lt;anonymous&gt;)
+    </system-err>
+  
+
+    
+
+  
+    
+    <testcase
+      name="Outdoor Gear" classname="yoodlize">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Electronics" classname="yoodlize">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Party and Wedding" classname="yoodlize">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Tools" classname="yoodlize">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Clothing" classname="yoodlize">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Home and Kitchen" classname="yoodlize">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Toys and Games" classname="yoodlize">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Lawn and Garden" classname="yoodlize">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Sporting Goods" classname="yoodlize">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="DVDs and Video Games" classname="yoodlize">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Venues" classname="yoodlize">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Music" classname="yoodlize">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Business Equipment" classname="yoodlize">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Misc" classname="yoodlize">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

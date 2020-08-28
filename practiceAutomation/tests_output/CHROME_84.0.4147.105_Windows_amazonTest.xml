@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="amazonTest"
+    errors="1" failures="0" hostname="" id="" package="amazonTest" skipped="0"
+    tests="1" time="7.140" timestamp="">
+  
+    <testcase name="Search" classname="amazonTest" time="7.140" assertions="0">
+    <error message="An error occurred while running .getText() command on &lt;//span[@class=a-size-medium a-color-base a-text-normal][1]&gt;: SyntaxError: Failed to execute &#39;evaluate&#39; on &#39;Document&#39;: The string &#39;//span[@class=a-size-medium a-color-base a-text-normal][1]&#39; is not a valid XPath expression.,  (Session info: chrome=84.0.4147.105),  (Driver info: chromedriver=84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}),platform=Windows NT 10.0.19041 x86_64); invalid selector: Unable to locate an element with the xpath expression //span[@class=a-size-medium a-color-base a-text-normal][1] because of the following error:" type="error"><![CDATA[
+    NoSuchElementError: An error occurred while running .getText() command on &lt;//span[@class=a-size-medium a-color-base a-text-normal][1]&gt;: SyntaxError: Failed to execute &#39;evaluate&#39; on &#39;Document&#39;: The string &#39;//span[@class=a-size-medium a-color-base a-text-normal][1]&#39; is not a valid XPath expression.,  (Session info: chrome=84.0.4147.105),  (Driver info: chromedriver=84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}),platform=Windows NT 10.0.19041 x86_64); invalid selector: Unable to locate an element with the xpath expression //span[@class=a-size-medium a-color-base a-text-normal][1] because of the following error:
+    at GetText.noSuchElementError (C:\Users\Karso\AppData\Roaming\npm\node_modules\nightwatch\lib\element\command.js:368:12)
+    at Object.errorHandler (C:\Users\Karso\AppData\Roaming\npm\node_modules\nightwatch\lib\api\element-commands\_baseElementCommand.js:42:30)
+    at PeriodicPromise.runAction (C:\Users\Karso\AppData\Roaming\npm\node_modules\nightwatch\lib\utils\periodic-promise.js:64:29)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+        NoSuchElementError: An error occurred while running .getText() command on &lt;//span[@class=a-size-medium a-color-base a-text-normal][1]&gt;: SyntaxError: Failed to execute &#39;evaluate&#39; on &#39;Document&#39;: The string &#39;//span[@class=a-size-medium a-color-base a-text-normal][1]&#39; is not a valid XPath expression.,  (Session info: chrome=84.0.4147.105),  (Driver info: chromedriver=84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}),platform=Windows NT 10.0.19041 x86_64); invalid selector: Unable to locate an element with the xpath expression //span[@class=a-size-medium a-color-base a-text-normal][1] because of the following error:
+   {&#34;status&#34;:-1,&#34;state&#34;:&#34;&#34;,&#34;value&#34;:{&#34;message&#34;:&#34;invalid selector: Unable to locate an element with the xpath expression //span[@class=a-size-medium a-color-base a-text-normal][1] because of the following error:&#34;,&#34;error&#34;:[&#34;SyntaxError: Failed to execute &#39;evaluate&#39; on &#39;Document&#39;: The string &#39;//span[@class=a-size-medium a-color-base a-text-normal][1]&#39; is not a valid XPath expression.&#34;,&#34;  (Session info: chrome=84.0.4147.105)&#34;,&#34;  (Driver info: chromedriver=84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}),platform=Windows NT 10.0.19041 x86_64)&#34;]},&#34;errorStatus&#34;:32,&#34;error&#34;:&#34;invalid selector: Unable to locate an element with the xpath expression //span[@class=a-size-medium a-color-base a-text-normal][1] because of the following error:&#34;,&#34;httpStatusCode&#34;:200}
+       at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

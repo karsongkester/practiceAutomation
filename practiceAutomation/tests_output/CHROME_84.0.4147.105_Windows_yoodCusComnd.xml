@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="yoodCusComnd"
+    errors="0" failures="0" hostname="" id="" package="yoodCusComnd" skipped="0"
+    tests="1" time="23.82" timestamp="">
+  
+    <testcase name="Inter" classname="yoodCusComnd" time="23.82" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>
